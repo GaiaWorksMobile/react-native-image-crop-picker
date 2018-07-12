@@ -11,12 +11,12 @@
 #import <Foundation/Foundation.h>
 
 #if __has_include("RCTBridgeModule.h")
-#import "RCTBridgeModule.h"
 #import "RCTImageLoader.h"
 #else
-#import <React/RCTBridgeModule.h>
 #import <React/RCTImageLoader.h>
 #endif
+
+#import <React/RCTBridgeModule.h>
 
 #if __has_include("QBImagePicker.h")
 #import "QBImagePicker.h"
